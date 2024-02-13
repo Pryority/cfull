@@ -1,0 +1,11 @@
+{
+  "name": "cfull",
+  "scripts": {
+    "cs": "g++ -o server main.cpp",
+    "rs": "./server",
+    "cr": "g++ -std=c++11 -o server main.cpp && ./server"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
